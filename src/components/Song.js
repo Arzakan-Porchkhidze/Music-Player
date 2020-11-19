@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Song() {
+function Song({currentSong}) {
     return (
         <div className='song-container'>
-           <h1>component</h1> 
+           <img src={currentSong.cover} alt='cover-img' />
+           <h2>{currentSong.name}</h2>
+           <h3>{currentSong.artist}</h3>
         </div>
     );
 }
