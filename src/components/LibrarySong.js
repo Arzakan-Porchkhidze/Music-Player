@@ -1,8 +1,17 @@
 import React from 'react';
 
-function LibrarySong({song, setCurrentSong}) {
+function LibrarySong({song, setCurrentSong,audioRef, isPlaying}) {
     const songSelectHandler = () => {
         setCurrentSong(song);
+        //check if the song is playing
+        if(isPlaying){
+            const playPromise = audioRef.current.play();
+            if(playPromise){
+                playPromise.then( () => {
+                    audioRef.current.play();
+                })
+            }
+        }
     }
     return (
         <div onClick={songSelectHandler} className='library-song'>
