@@ -1,17 +1,10 @@
 import React from 'react';
+import {playAudio} from '../util';
 
 function LibrarySong({ setSongs, songs, id, song, setCurrentSong,audioRef, isPlaying}) {
     const songSelectHandler = () => {
         setCurrentSong(song);
-        //check if the song is playing
-        if(isPlaying){
-            const playPromise = audioRef.current.play();
-            if(playPromise){
-                playPromise.then( () => {
-                    audioRef.current.play();
-                })
-            }
-        }
+        playAudio(isPlaying,audioRef);
         //Set Active in library
         const newSongs = songs.map((song) => {
             if (song.id === id) {
