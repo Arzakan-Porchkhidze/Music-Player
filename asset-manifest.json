@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Music-Player/static/css/main.b482a44a.chunk.css",
+    "main.js": "/Music-Player/static/js/main.d3709b1d.chunk.js",
+    "main.js.map": "/Music-Player/static/js/main.d3709b1d.chunk.js.map",
+    "runtime-main.js": "/Music-Player/static/js/runtime-main.b311a805.js",
+    "runtime-main.js.map": "/Music-Player/static/js/runtime-main.b311a805.js.map",
+    "static/js/2.6f34a02b.chunk.js": "/Music-Player/static/js/2.6f34a02b.chunk.js",
+    "static/js/2.6f34a02b.chunk.js.map": "/Music-Player/static/js/2.6f34a02b.chunk.js.map",
+    "index.html": "/Music-Player/index.html",
+    "static/css/main.b482a44a.chunk.css.map": "/Music-Player/static/css/main.b482a44a.chunk.css.map",
+    "static/js/2.6f34a02b.chunk.js.LICENSE.txt": "/Music-Player/static/js/2.6f34a02b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b311a805.js",
+    "static/js/2.6f34a02b.chunk.js",
+    "static/css/main.b482a44a.chunk.css",
+    "static/js/main.d3709b1d.chunk.js"
+  ]
+}
