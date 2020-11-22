@@ -49,6 +49,20 @@
 }
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 16px;
+    width: 6px;
     height: 16px;
+}
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .time-control {
+        width: 90%;
+    }
+    .play-control{
+        width: 60%;
+    }
 }
